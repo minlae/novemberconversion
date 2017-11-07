@@ -2,12 +2,116 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Somali</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins" rel="stylesheet">
 	<link rel="stylesheet" href="public/styles/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<h1>Hello Milena</h1>
-	<h2>This is your placeholder</h2>
+	<header>
+		<!--
+		<i class="fa fa-phone" aria-hidden="true"></i>
+		<i class="fa fa-envelope" aria-hidden="true"></i>
+		<i class="fa fa-clock-o" aria-hidden="true"></i>
+
+		<i class="fa fa-facebook" aria-hidden="true"></i>
+		<i class="fa fa-twitter" aria-hidden="true"></i>
+		<i class="fa fa-linkedin" aria-hidden="true"></i>
+		<i class="fa fa-google-plus" aria-hidden="true"></i>
+		<i class="fa fa-rss" aria-hidden="true"></i>
+		 -->
+		<div class="header__links">
+			<div class="header__contact">
+				<p>
+					<i class="fa fa-phone" aria-hidden="true"></i>
+					Call us: 2900 3456 7890
+				</p>
+				<p>
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+					Email us: <a href="mailto:company@domain.com">company@domain.com</a>
+				</p>
+				<p>
+					<i class="fa fa-clock-o" aria-hidden="true"></i>
+					Working time: 8:00 - 17:00
+				</p>
+			</div>
+			<ul class="header__social-media">
+				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+
+		<div class="header__logo">
+			<img src="assets/home/somali_logo.png" alt="image of the somali company logo">
+		</div>
+	</header>
+
+	<main>
+		<div class="hero__text-container">
+			<h1>Swimming Pools Home</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sit labore est obcaecati inventore cupiditate explicabo asperiores aliquid.</p>
+			<div class="hero__buttons">
+				<button>Our Services</button>
+				<button>Get a Quote</button>
+			</div>
+		</div>
+	</main>
+
+	<section class="services">
+		<div class="home__title-text">
+			<h3>creative services</h3>
+			<h2>what we offer</h2>
+		</div>
+		<div class="services__services">
+			<div>
+				<h4>House Construction</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero voluptate consequatur eveniet.</p>
+			</div>
+			<div>
+				<h4>Services Mapping</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, esse ipsum ut.</p>
+			</div>
+			<div>
+				<h4>Interior Solutions</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus rem suscipit molestiae!</p>
+			</div>
+			<div>
+				<h4>House Construction</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum sequi, fugiat at.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="portfolio">
+		<div class="home__title-text">
+			<h3>portfolio</h3>
+			<h2>our works</h2>
+		</div>
+		<nav class="portfolio__nav">
+			<ul>
+				<li><a href="#">All</a></li>
+				<li><a href="#">Interior Design</a></li>
+				<li><a href="#">Architecture</a></li>
+				<li><a href="#">Building</a></li>
+				<li><a href="#">Plumbing</a></li>
+			</ul>
+		</nav>
+		<!-- flickity  not working... -->
+		<div class="main-carousel">
+		  <div class="carousel-cell"><img src="assets/home/carousel_img1.jpg" alt="first image of carousel"></div>
+		  <div class="carousel-cell"><img src="assets/home/carousel_img3.jpg" alt="second image of carousel"></div>
+		  <div class="carousel-cell"><img src="assets/home/carousel_img4.jpg" alt="third image of carousel"></div>
+		  ...
+		</div>
+	</section>
+	
+	<script src="https://use.fontawesome.com/be7cb9fabf.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.2/flickity.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.2/flickity.pkgd.min.js"></script>
+	<script src="public/scripts/main.js"></script>
 </body>
 </html>
