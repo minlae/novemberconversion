@@ -99,19 +99,121 @@
 				<li><a href="#">Plumbing</a></li>
 			</ul>
 		</nav>
-		<!-- flickity  not working... -->
-		<div class="main-carousel">
-		  <div class="carousel-cell"><img src="assets/home/carousel_img1.jpg" alt="first image of carousel"></div>
-		  <div class="carousel-cell"><img src="assets/home/carousel_img3.jpg" alt="second image of carousel"></div>
-		  <div class="carousel-cell"><img src="assets/home/carousel_img4.jpg" alt="third image of carousel"></div>
-		  ...
+
+		<div class="portfolio__carousel">
+		  <img src="assets/home/carousel_img1.jpg" alt="first image of carousel">
+		  <img src="assets/home/carousel_img3.jpg" alt="second image of carousel">
+		  <img src="assets/home/carousel_img4.jpg" alt="third image of carousel">
 		</div>
 	</section>
+
+	<section class="why-us">
+		<div class="home__title-text">
+			<h3>our reason???</h3>
+			<h2>why choose us</h2>
+		</div>
+		<div class="why-us__container">
+			<div class="why-us__description--container">
+				<div class="why-us__description--images">
+					<img src="assets/home/why_us_img1.jpg" alt="image of a building">
+					<img src="assets/home/why_us_img2.jpg" alt="image of construction">
+					<img src="assets/home/why_us_img3.jpg" alt="image looking down from building window ledge">
+				</div>
+				<h4>1914 Translation by H. Rackham</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quam, impedit provident dolorum. Harum quis maxime voluptates ab voluptatibus, possimus perspiciatis sunt, neque odit, beatae nobis nulla quam eum ea.</p>
+				<div class="why-us__description--button-container">
+					<button>Learn More</button>
+					<button>Get a Quote</button>
+				</div>
+			</div>
+			
+			<div class="why-us__bullets--container">
+				<ul class="why-us__bullets">
+					<li>
+						<img src="assets/home/why_us_icon1.png">
+						<h4>Modern Design</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</li>
+					<li>
+						<img src="assets/home/why_us_icon2.png">
+						<h4>Construction Management</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</li>
+					<li>
+						<img src="assets/home/why_us_icon3.png">
+						<h4>General Contractor</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</li>
+					<li>
+						<img src="assets/home/why_us_icon4.png">
+						<h4>Modern Design</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="why-us__testimonial">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quibusdam, voluptatibus ipsam rerum dolorem! Placeat, distinctio quo accusamus, suscipit voluptate laboriosam ab beatae eum, blanditiis mollitia velit nostrum adipisci odio.</p>
+			<div class="why-us__testimonial--image-container">
+				<img src="assets/home/home_human.png" alt="picture of the man who's testimonial is featured">
+				<span class="testimonial__name">Michael Davidson</span>
+				<span class="testimonial__title">Freelance designer</span>
+			</div>
+		</div>
+	</section>
+
+	<section class="blog">
+		<div class="home__title-text">
+			<h3>News &amp; Blog</h3>
+			<h2>from the blog</h2>
+		</div>
+
+		<div class="blog__posts--container">
+			<div class="blog__post">
+			<!-- put in bgimage and set height and give lower z-index to above when doing CSS -->
+				<div class="blog__post--content">
+					<div class="blog__post--text">
+						<span>post by <span>Admin</span></span>
+						<span>web design</span>
+						<h4>prepare a room for painting</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi earum maxime molestias.</p>
+					</div>
+					<!-- not sure if put in image here now or include it as an "after" or "before" element in CSS. Look up documentation and decide -->
+					<div class="blog__post--calendar">
+						<div><span>23 <br> July</span></div>
+						<div>&hearts; <br> 20 </div>
+						<div>...</div>
+					</div>
+				</div>
+			</div>
+			<!-- CHECK TO SEE THAT THE ABOVE CARD IS DONE WELL IN CSS AND THEN COPY X2 -->
+		</div>
+	</section>
+
+	<section class="logos">
+		<img src="assets/home/home_logos1.png" alt="logo for company x">
+		<img src="assets/home/home_logos2.png" alt="logo for company x">
+		<img src="assets/home/home_logos3.png" alt="logo for company x">
+		<img src="assets/home/home_logos4.png" alt="logo for company x">
+		<img src="assets/home/home_logos1.png" alt="logo for company x">
+		<img src="assets/home/home_logos6.png" alt="logo for company x">
+	</section>
+	
+	<footer>
+		<div class="footer__links--container">
+			<div class="footer__links--contact">
+				<h3>contact us</h3>
+				<div class="footer__links--contact-text">
+					<!-- ok too tired for this. Look at it again tomorrow. May need to tinker with CSS to get it to look proper -->
+				</div>
+			</div>
+		</div>
+	</footer>
 	
 	<script src="https://use.fontawesome.com/be7cb9fabf.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.2/flickity.min.css">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.2/flickity.pkgd.min.js"></script>
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.2/flickity.min.css"> -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.2/flickity.pkgd.min.js"></script> -->
 	<script src="public/scripts/main.js"></script>
 </body>
 </html>

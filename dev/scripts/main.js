@@ -8,7 +8,7 @@ novConversion.events = () => {
 
 novConversion.init = () => {
 	novConversion.events();
-	$('.gallery').flickity();
+	// $('.gallery').flickity();
 }
 
 $(document).ready(() => {
